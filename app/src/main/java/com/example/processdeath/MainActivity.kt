@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                         Button(onClick = {
                             myViewModel.updateState(Random.nextInt(10).toString())
                         }) {
-                            Text("Generate new state")
+                            Text("Generate new Number")
                         }
                         Text(text = state.value ?: "")
                     }

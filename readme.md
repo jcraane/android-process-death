@@ -9,3 +9,8 @@ To simulate process death:
 
 As developer you are responsible for saving any state that is not persisted when process death occurs. One way to do this
 is using the viewModels SavedStateHandle. That method is demonstrated in this sample app, specifically in the MyViewModel class.
+
+The application displays a random number when the button 'Generate new Number' is pressed. That number should be restored when
+the app is restored from process death.
+
+![Screenshot](images/screenshot.png?raw=true "Screenshot")
